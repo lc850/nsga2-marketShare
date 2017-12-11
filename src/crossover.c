@@ -27,7 +27,7 @@ void crossover (individual *parent1, individual *parent2, individual *child1, in
 void realcrossParamMS (individual *parent1, individual *parent2, individual *child1, individual *child2)
 {
 	int puntoCruza, i;
-	//cruza de genes∫
+	//cruza
 	puntoCruza = rnd(1, nreal-1);
 
 		for( i=0;  i < nreal;  i++){
